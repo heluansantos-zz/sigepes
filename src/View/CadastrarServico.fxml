@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controler.CadastrarServicoController">
+    <children>
+      <Label layoutX="54.0" layoutY="110.0" text="Titulo" />
+      <Label layoutX="54.0" layoutY="225.0" text="Status" />
+      <TextField fx:id="txTitulo" layoutX="135.0" layoutY="105.0" prefHeight="29.0" prefWidth="324.0" promptText="Ex: Ps3  conserto" />
+      <TextField fx:id="txDescri" layoutX="135.0" layoutY="142.0" prefHeight="29.0" prefWidth="324.0" promptText="Ex: Falha no controle" />
+      <TextField fx:id="txOrdem" layoutX="135.0" layoutY="180.0" prefHeight="29.0" prefWidth="324.0" promptText="Ex: 1943" />
+      <Label layoutX="54.0" layoutY="185.0" text="Ordem" />
+      <Label layoutX="54.0" layoutY="147.0" text="Descriçao" />
+      <TextField fx:id="txStatus" layoutX="135.0" layoutY="220.0" prefHeight="29.0" prefWidth="324.0" promptText="Ex: Pronto" />
+      <Button fx:id="btCadastrar" layoutX="381.0" layoutY="267.0" mnemonicParsing="false" text="Cadastrar" />
+      <Button fx:id="btCancelar" layoutX="135.0" layoutY="267.0" mnemonicParsing="false" text="Cancelar" />
+   </children>
+</AnchorPane>

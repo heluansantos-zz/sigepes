@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8" fx:controller="Controler.ListarProdutoController">
+    <children>
+      <TableView fx:id="tabela" layoutX="14.0" layoutY="14.0" prefHeight="333.0" prefWidth="573.0">
+        <columns>
+          <TableColumn fx:id="clmId" prefWidth="32.0" text="ID" />
+          <TableColumn fx:id="clmNome" prefWidth="84.0" text="Nome" />
+            <TableColumn fx:id="clmDescri" minWidth="0.0" prefWidth="100.0" text="Descriçao" />
+            <TableColumn fx:id="clmStatus" minWidth="0.0" prefWidth="100.0" text="Status" />
+            <TableColumn fx:id="clmNicho" minWidth="0.0" prefWidth="100.0" text="Nicho" />
+            <TableColumn fx:id="clmOrdem" minWidth="0.0" prefWidth="77.0" text="Ordem" />
+            <TableColumn fx:id="clmPreco" minWidth="0.0" prefWidth="77.0" text="Preço" />
+        </columns>
+      </TableView>
+      <Button fx:id="btDeletar" layoutX="14.0" layoutY="357.0" mnemonicParsing="false" prefHeight="29.0" prefWidth="124.0" text="Deletar" />
+      <Button fx:id="btAtualizar" layoutX="150.0" layoutY="357.0" mnemonicParsing="false" prefHeight="29.0" prefWidth="124.0" text="Atualizar" />
+      <Button fx:id="btGerarRelatorio" layoutX="286.0" layoutY="357.0" mnemonicParsing="false" prefHeight="29.0" prefWidth="124.0" text="Gerar Relatorio" />
+      <Button fx:id="btCancelar" layoutX="463.0" layoutY="357.0" mnemonicParsing="false" prefHeight="29.0" prefWidth="124.0" text="Cancelar" />
+   </children>
+</AnchorPane>

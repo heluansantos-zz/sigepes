@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controler.PrincipalController">
+   <children>
+      <Button fx:id="btCadastrarPessoa" layoutX="23.0" layoutY="75.0" mnemonicParsing="false" prefHeight="32.0" prefWidth="141.0" text="Cadastrar Funcionario" />
+      <Button fx:id="btCadastrarEmpresa" layoutX="23.0" layoutY="115.0" mnemonicParsing="false" prefHeight="32.0" prefWidth="141.0" text="Cadastrar Empresa" />
+      <Button fx:id="btListarPessoa" layoutX="176.0" layoutY="75.0" mnemonicParsing="false" prefHeight="32.0" prefWidth="141.0" text="Listar Pessoa" />
+      <Button fx:id="btListarEmpresa" layoutX="176.0" layoutY="115.0" mnemonicParsing="false" prefHeight="32.0" prefWidth="141.0" text="Listar Empresa" />
+      <Button fx:id="btListarServico" layoutX="176.0" layoutY="194.0" mnemonicParsing="false" prefHeight="32.0" prefWidth="141.0" text="Listar Serviços" />
+      <Button fx:id="btListarProduto" layoutX="176.0" layoutY="154.0" mnemonicParsing="false" prefHeight="32.0" prefWidth="141.0" text="Listar Produtos" />
+      <Button fx:id="btCadastrarServico" layoutX="23.0" layoutY="194.0" mnemonicParsing="false" prefHeight="32.0" prefWidth="141.0" text="Cadastrar Serviço" />
+      <Button fx:id="btCadastrarProduto" layoutX="23.0" layoutY="154.0" mnemonicParsing="false" prefHeight="32.0" prefWidth="141.0" text="Cadastrar Produto" />
+      <Text layoutX="170.0" layoutY="44.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Sistema de Gerenciamento para Empresas" />
+      <Button fx:id="btSair" layoutX="429.0" layoutY="343.0" mnemonicParsing="false" prefHeight="32.0" prefWidth="141.0" text="Sair" />
+      <Button fx:id="btTrocarUsuario" layoutX="26.0" layoutY="343.0" mnemonicParsing="false" prefHeight="32.0" prefWidth="141.0" text="Trocar Usuario" />
+      <Button fx:id="btPesquisar" layoutX="429.0" layoutY="75.0" mnemonicParsing="false" prefHeight="32.0" prefWidth="141.0" text="Pesquisar" />
+      <Button fx:id="btGerarRelatorio" layoutX="429.0" layoutY="115.0" mnemonicParsing="false" prefHeight="32.0" prefWidth="141.0" text="Gearar Relatorio" />
+   </children>
+</AnchorPane>

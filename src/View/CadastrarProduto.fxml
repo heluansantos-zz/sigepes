@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controler.CadastrarProdutoController">
+    <children>
+      <Label layoutX="54.0" layoutY="35.0" text="Nome" />
+      <Label layoutX="54.0" layoutY="150.0" text="Preço" />
+      <TextField fx:id="txNome" layoutX="135.0" layoutY="30.0" prefHeight="29.0" prefWidth="324.0" promptText="Ex: COD" />
+      <TextField fx:id="txPreco" layoutX="135.0" layoutY="145.0" prefHeight="29.0" prefWidth="324.0" promptText="Ex: 10,00" />
+      <Button fx:id="btCadastrar" layoutX="381.0" layoutY="267.0" mnemonicParsing="false" text="Cadastrar" />
+      <Button fx:id="btCancelar" layoutX="135.0" layoutY="267.0" mnemonicParsing="false" text="Cancelar" />
+      <TextField fx:id="txNicho" layoutX="135.0" layoutY="105.0" prefHeight="29.0" prefWidth="324.0" promptText="Ex: Games" />
+      <Label layoutX="54.0" layoutY="110.0" text="Nicho" />
+      <TextField fx:id="txDescri" layoutX="135.0" layoutY="67.0" prefHeight="29.0" prefWidth="324.0" promptText="Ex: Jogo de tiro" />
+      <Label layoutX="54.0" layoutY="72.0" text="Descriçao" />
+      <TextField fx:id="txStatus" layoutX="135.0" layoutY="186.0" prefHeight="29.0" prefWidth="324.0" promptText="Ex: Novo" />
+      <Label layoutX="54.0" layoutY="191.0" text="Status" />
+      <TextField fx:id="txOrdem" layoutX="135.0" layoutY="226.0" prefHeight="29.0" prefWidth="324.0" promptText="Ex: 9984" />
+      <Label layoutX="54.0" layoutY="231.0" text="Ordem" />
+   </children>
+</AnchorPane>

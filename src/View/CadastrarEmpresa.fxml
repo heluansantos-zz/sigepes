@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controler.CadastrarEmpresaController">
+    <children>
+      <Label layoutX="57.0" layoutY="55.0" text="Nome" />
+      <Label layoutX="57.0" layoutY="94.0" text="Cnpj" />
+      <TextField fx:id="txNome" layoutX="138.0" layoutY="50.0" prefHeight="29.0" prefWidth="324.0" promptText="Ex: Google" />
+      <TextField fx:id="txCnpj" layoutX="138.0" layoutY="89.0" prefHeight="29.0" prefWidth="324.0" promptText="Ex: 123.123.123-90" />
+      <TextField fx:id="txNicho" layoutX="138.0" layoutY="130.0" prefHeight="29.0" prefWidth="324.0" promptText="Ex: Games" />
+      <Label layoutX="57.0" layoutY="135.0" text="Nicho" />
+      <TextField fx:id="txDescri" layoutX="138.0" layoutY="171.0" prefHeight="29.0" prefWidth="324.0" promptText="Ex: Venda de games e consoles" />
+      <Label layoutX="57.0" layoutY="176.0" text="Descriçao" />
+      <Button fx:id="btCadastrar" layoutX="384.0" layoutY="216.0" mnemonicParsing="false" text="Cadastrar" />
+      <Button fx:id="btCancelar" layoutX="138.0" layoutY="216.0" mnemonicParsing="false" text="Cancelar" />
+   </children>
+</AnchorPane>
